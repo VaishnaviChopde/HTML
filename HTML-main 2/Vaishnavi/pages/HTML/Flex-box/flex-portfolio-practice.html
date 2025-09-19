@@ -3,67 +3,11 @@
 
 <head>
     <title></title>
-    <style>
-        header {
-            width: 100vw;
-            height: 100px;
-            background-color: #415E72;
-            display: flex;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        .logo {
-            width: 20%;
-            height: 100px;
-            background-color: #415E72;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        h1 {
-            color: white;
-        }
-
-        nav {
-            width: 60%;
-            height: 100px;
-            background-color: #415E72;
-            justify-content: center;
-            align-content: center;
-        }
-
-        ul {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            color: white;
-            list-style: none;
-            font-size: larger;
-        }
-
-        .button-group {
-            width: 20%;
-            height: 100px;
-            background-color: #415E72;
-            justify-content: center;
-            align-content: center;
-        }
-
-        button {
-            font-size: 25px;
-            padding: 4px;
-            border-radius: 10px;
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="./flex-portfolio-practice.css">
 </head>
 
 <body>
+    <!--header start-->
     <header>
         <div class="logo">
             <h1>Portfolio</h1>
@@ -80,6 +24,42 @@
             <button type="button">Sign-up/Login</button>
         </div>
     </header>
+    <!--header end-->
+    <main>
+        <!--home sectoin start-->
+        <section class="home">
+            <div class="home-content">
+                <h1 class="home-title">Welcome to my Portfolio</h1>
+                <h2 class="home-subtitle">My name is Vaishnavi ,<i> i am a web developer</i></h2>
+            </div>
+        </section>
+        <!--home section end-->
+
+        <!--about section start-->
+        <section class="about">
+            <div class="about-title-section">
+                <h2>About</h2>
+            </div>
+        </section>
+        <!--about section end-->
+
+        <!--project section start-->
+        <section class="project">
+            <div class="project-title-section">
+                <h2>Project</h2>
+            </div>
+        </section>
+        <!--project section end-->
+
+        <!--contact section start-->
+        <section class="contact">
+            <div class="contact-title-section">
+                <h2>contact</h2>
+            </div>
+        </section>
+
+        <!--contact section end-->
+    </main>
 </body>
 
 </html>
